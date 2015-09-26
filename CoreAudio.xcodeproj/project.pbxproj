@@ -10,9 +10,10 @@
 		FF68A8381BB519FB000B2763 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF68A8371BB519FB000B2763 /* main.m */; };
 		FF68A83B1BB519FB000B2763 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF68A83A1BB519FB000B2763 /* AppDelegate.m */; };
 		FF68A83E1BB519FB000B2763 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF68A83D1BB519FB000B2763 /* ViewController.m */; };
-		FF68A8411BB519FB000B2763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF68A83F1BB519FB000B2763 /* Main.storyboard */; };
 		FF68A8431BB519FB000B2763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF68A8421BB519FB000B2763 /* Assets.xcassets */; };
-		FF68A8461BB519FB000B2763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF68A8441BB519FB000B2763 /* LaunchScreen.storyboard */; };
+		FF68A84E1BB51A2C000B2763 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF68A84D1BB51A2C000B2763 /* ViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		FF68A8501BB51A5E000B2763 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF68A84F1BB51A5E000B2763 /* AVFoundation.framework */; };
+		FF68A8521BB51D54000B2763 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF68A8511BB51D54000B2763 /* song.mp3 */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +23,11 @@
 		FF68A83A1BB519FB000B2763 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FF68A83C1BB519FB000B2763 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FF68A83D1BB519FB000B2763 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FF68A8401BB519FB000B2763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF68A8421BB519FB000B2763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FF68A8451BB519FB000B2763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF68A8471BB519FB000B2763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF68A84D1BB51A2C000B2763 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		FF68A84F1BB51A5E000B2763 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FF68A8511BB51D54000B2763 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF68A8501BB51A5E000B2763 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 		FF68A82A1BB519FB000B2763 = {
 			isa = PBXGroup;
 			children = (
+				FF68A84F1BB51A5E000B2763 /* AVFoundation.framework */,
 				FF68A8351BB519FB000B2763 /* CoreAudio */,
 				FF68A8341BB519FB000B2763 /* Products */,
 			);
@@ -58,13 +62,13 @@
 		FF68A8351BB519FB000B2763 /* CoreAudio */ = {
 			isa = PBXGroup;
 			children = (
+				FF68A8511BB51D54000B2763 /* song.mp3 */,
 				FF68A8391BB519FB000B2763 /* AppDelegate.h */,
 				FF68A83A1BB519FB000B2763 /* AppDelegate.m */,
 				FF68A83C1BB519FB000B2763 /* ViewController.h */,
 				FF68A83D1BB519FB000B2763 /* ViewController.m */,
-				FF68A83F1BB519FB000B2763 /* Main.storyboard */,
+				FF68A84D1BB51A2C000B2763 /* ViewController.xib */,
 				FF68A8421BB519FB000B2763 /* Assets.xcassets */,
-				FF68A8441BB519FB000B2763 /* LaunchScreen.storyboard */,
 				FF68A8471BB519FB000B2763 /* Info.plist */,
 				FF68A8361BB519FB000B2763 /* Supporting Files */,
 			);
@@ -136,9 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF68A8461BB519FB000B2763 /* LaunchScreen.storyboard in Resources */,
+				FF68A8521BB51D54000B2763 /* song.mp3 in Resources */,
+				FF68A84E1BB51A2C000B2763 /* ViewController.xib in Resources */,
 				FF68A8431BB519FB000B2763 /* Assets.xcassets in Resources */,
-				FF68A8411BB519FB000B2763 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,25 +160,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		FF68A83F1BB519FB000B2763 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF68A8401BB519FB000B2763 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FF68A8441BB519FB000B2763 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF68A8451BB519FB000B2763 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FF68A8481BB519FB000B2763 /* Debug */ = {
